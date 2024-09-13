@@ -1,6 +1,6 @@
 String month;
 
-month = "Marts";
+month = "Februar";
 
 
 switch (month) {
@@ -23,6 +23,7 @@ case "November":
 
 case "Februar":
   println(month + " har 28 dage i måneden"); // Hvad med når der er skudår?
+  break;
 
 default:
   println("Ugyldig måned, husk stort forbogstav");
